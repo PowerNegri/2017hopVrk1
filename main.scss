@@ -1,3 +1,32 @@
-.button {
-	background: black;
+@import "scss/checkbox.scss";
+@import "scss/grid.scss";
+
+html {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
 }
+
+.heading_font {
+	font-family: "Roboto Slab", serif;
+}
+
+.h1 {
+	@extend .heading_font;
+	font-size: 2rem;
+}
+
+.h2 {
+	@extend .heading_font;
+	font-size: 1.5rem;
+}
+
+.h3 {
+	@extend .heading_font;
+	font-size: 1.17rem;
+
+}
+
+.h4 {
+	@extend .heading_font;
+}
+
