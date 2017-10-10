@@ -8,13 +8,17 @@ html {
 	font-family: "Open Sans", sans-serif;
 }
 
+body {
+	margin: 0;
+}
+
 .heading_font {
 	font-family: "Roboto Slab", serif;
 }
 
 .h1 {
 	@extend .heading_font;
-	font-size: 2rem;
+	font-size: 4rem;
 }
 
 .h2 {
