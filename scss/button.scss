@@ -1,8 +1,10 @@
+
+
 .button {
 	width:50%;
 	max-width: 10rem;
 	color: white;
-	background-color: #555;
+	background-color: $gray;
 	padding: 0.5rem;
 	font-size: 1.5rem;
 	border-radius: 3px;
@@ -22,10 +24,10 @@
 	}
 
 	&__hover {
-		background-color: #666;
+		background-color: $darkgray;
 	}
 
 	&__active {
-		background-color: #660;
+		background-color: $lightgray;
 	}
 }
