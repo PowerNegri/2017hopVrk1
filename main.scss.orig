@@ -39,4 +39,3 @@ body {
 @import "scss/button.scss";
 @import "scss/profile.scss";
 @import "scss/footer.scss";
-@import "scss/navbar.scss";
