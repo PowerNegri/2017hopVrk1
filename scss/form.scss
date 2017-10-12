@@ -1,0 +1,13 @@
+.form {
+	&__box {
+		padding: 3rem;
+
+		&__input {
+			padding: 0.5rem;
+
+			&__text {
+				width: 100%;
+			}
+		}
+	}
+}
