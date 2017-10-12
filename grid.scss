@@ -1,0 +1,23 @@
+$gutter:20px;
+$mar: 5%;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -($gutter / 2);
+  margin-bottom: $gutter;
+  margin-left: -($gutter / 2);
+}
+@mixin collums($col: 1)
+{
+  margin-right: $mar;
+  margin-left: $mar;
+  width: ($col / 12 * 100) * 1%;
+}
+
+.col__12{
+  @include collums(12)
+}
+.col__6{
+  @include collums(6)
+}
+.col__simi

@@ -1,42 +1,18 @@
-html {
-	font-size: 16px;
-	font-family: "Open Sans", sans-serif;
+$max-width:1200px;
+$gutter: 20px;
+
+
+.button {
+	background: black;
+}
+.haus{
+	background-image: url("res/image.jpg");
+background-size: cover;
+background-position: 50% 50%;
+background-attachment:fixed;
+text-align: center;
+width: 100%;
+font-size: 59px;
 }
 
-body {
-	margin: 0;
-}
-
-.heading_font {
-	font-family: "Roboto Slab", serif;
-}
-
-.h1 {
-	@extend .heading_font;
-	font-size: 4rem;
-}
-
-.h2 {
-	@extend .heading_font;
-	font-size: 1.5rem;
-}
-
-.h3 {
-	@extend .heading_font;
-	font-size: 1.17rem;
-
-}
-
-.h4 {
-	@extend .heading_font;
-}
-
-@import "scss/variables.scss";
-
-@import "scss/checkbox.scss";
-@import "scss/grid.scss";
-@import "scss/jumbotron.scss";
-@import "scss/button.scss";
-@import "scss/profile.scss";
-@import "scss/footer.scss";
-@import "scss/navbar.scss";
+@import "scss/grid"

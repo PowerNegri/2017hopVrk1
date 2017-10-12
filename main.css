@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box; 
+  margin-right:20px;
+  margin-left:20px;
+  }
+  *,
+  *:before,
+  *:after{
+	  box-sizing:inherit;
+  }
+  body{
+	  line-height:1.5;}
+ .haus2{
+	 font-size:2em;
+	 padding-bottom:5px;
+	 padding-top:5px;
+	 background-color:gray;
+ }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -10px;
+  margin-bottom: 20px;
+  margin-left: -10px;
+}
+
+.col__6 {
+  padding-right: 10px;
+  padding-left: 8.33%;
+  width: 33%;
+}
+
+@media (max-width: 600px) {
+  .col__simi {
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 100%;
+  }
+  
+}
+ .kaupa_mynd{
+  background-image: url("res/bg-subpage.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  text-align: left;
+  width: 100%;
+  font-size: 59px;
+  padding-top:50px;
+  padding-bottom:50px;
+ }
+ 
+ .dalkur{
+	 border-right:15%;
+	 text-align:left;
+	 
+	 padding-bottom:6em;
+ }
+ /*"../res/image.jpg"*/
