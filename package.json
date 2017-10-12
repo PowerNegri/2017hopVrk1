@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "sass": "node-sass main.scss main.css -w",
+    "sass": "node-sass main.scss main.css",
     "browser-sync": "browser-sync start --server --files *.html main.css",
-    "dev": "npm-run-all --parallel sass browser-sync",
+    "dev": "npm-run-all --parallel sass browser-sync sass2",
     "lint": "stylelint *.scss scss/*.scss --syntax scss"
   },
   "repository": {
