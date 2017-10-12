@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/PowerNegri/2017hopVrk1#readme",
   "devDependencies": {
+    "browser-sync": "^2.18.13",
     "live-server": "^1.2.0",
     "node-sass": "^4.5.3",
     "npm-run-all": "^4.1.1",
