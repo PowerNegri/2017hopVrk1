@@ -9,10 +9,12 @@
 }
 
 .bg2 {
+	box-sizing: border-box;
 	background-image: url("../res/bg-subpage.jpg");
 	height: 50vh;
 	background-size:cover;
 	background-position: 50%;
+	padding: 	2rem;
 
 	align-items: top;
 
