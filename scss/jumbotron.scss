@@ -1,3 +1,28 @@
+
+.bg {
+  height: 100vh;
+  background-image: url("./res/bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+}
+
+.bg2 {
+  height: 50vh;
+  box-sizing: border-box;
+  padding: 2rem;
+  background-image: url("./res/bg-subpage.jpg");
+  background-position: 50%;
+  background-size: cover;
+  align-items: top;
+
+  @media (max-width: 600px) {
+    height: 90vh;
+  }
+
+}
+
 .jumbotron {
   z-index: -1;
   display: flex;
