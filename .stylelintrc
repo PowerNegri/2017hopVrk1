@@ -1,6 +1,9 @@
 {
   "extends": "stylelint-config-primer",
   "rules": {
+  	"at-rule-blacklist":,
+  	"primer/selector-no-utility":,
+  	"max-nesting-depth": 5,
     "plugin/no-unsupported-browser-features": null
   }
 }

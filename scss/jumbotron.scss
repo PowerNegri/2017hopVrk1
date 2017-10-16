@@ -1,82 +1,54 @@
-.bg {
-	background-image: url("../res/bg.jpg");
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-
-	align-items: center;
-}
-
-.bg2 {
-	box-sizing: border-box;
-	background-image: url("../res/bg-subpage.jpg");
-	height: 50vh;
-	background-size:cover;
-	background-position: 50%;
-	padding: 	2rem;
-
-	align-items: top;
-
-	@media(max-width: 600px) {
-		height:90vh;
-	}
-
-}
-
 .jumbotron {
-	width: 100%;
-	z-index: -1;
+  z-index: -1;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
 
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
+  &__heading {
 
-	&__heading {
+    @extend .h1;
+    padding: 0;
+    padding-bottom: 10vh;
+    line-height: 0;
+    animation: fadein2 1000ms ease-in;
+  }
 
-		@extend .h1;
-		line-height: 0;
-		padding: 0;
-		padding-bottom: 10vh;
-		animation: fadein2 1000ms ease-in;
-	}
+  &__heading2 {
+    @extend .jumbotron__heading;
+    padding: 0;
+    line-height: 1;
+    color: #fff;
+  }
 
-	&__heading2 {
-		@extend .jumbotron__heading;
-		line-height: 1;
-		padding: 0;
-		color: white;
-	}
+  &__subheading {
+    @extend .h2;
 
-	&__subheading {
-		@extend .h2;
-		
-		animation: fadein 500ms ease-in;
-	}
+    animation: fadein 500ms ease-in;
+  }
 
-	&__button {
-		@extend .button;
+  &__button {
+    @extend .button;
 
-		animation: fadein3 1500ms ease-in;
+    animation: fadein3 1500ms ease-in;
 
-	}
+  }
 
-	@keyframes fadein {
-		from {opacity: 0}
-		top  {opacity: 1}
-	}
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
 
-	@keyframes fadein2 {
-		0% {opacity: 0}
-		50%  {opacity: 0}
-		100%  {opacity: 1}
-	}
+  @keyframes fadein2 {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
-	@keyframes fadein3 {
-		0% {opacity: 0}
-		66%  {opacity: 0}
-		100%  {opacity: 1}
-	}
-
+  @keyframes fadein3 {
+    0% { opacity: 0; }
+    66% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 }

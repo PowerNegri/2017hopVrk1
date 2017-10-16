@@ -1,63 +1,63 @@
-a {
-	text-decoration: none;
+.a {
+  text-decoration: none;
 }
 
 .pic1 {
-	background-image: url("../res/profile1.jpg");
+  background-image: url("../res/profile1.jpg");
 }
 
 .pic2 {
-	background-image: url("../res/profile2.jpg");
+  background-image: url("../res/profile2.jpg");
 }
 
 .pic3 {
-	background-image: url("../res/profile3.jpg");
+  background-image: url("../res/profile3.jpg");
 }
 
 .profile {
-	display: flex; 
-	justify-content: center;
-	flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 
-	font-weight: bold;
+  font-weight: bold;
 
-	&__box {
-		padding: 1.5rem;
-		max-width: 20.25rem;
+  &__box {
+    display: flex;
+    max-width: 20.25rem;
+    padding: 1.5rem;
 
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 
-		&__pic {
-			box-sizing: border-box;
+    &__pic {
+      width: 18.75rem;
+      height: 18.75rem;
+      box-sizing: border-box;
 
-			background-size: cover;
-			background-position: center; 
-			border-radius: 50%;
+      background-position: center;
+      background-size: cover;
+      border-radius: 50%;
 
-			height: 18.75rem;
-			width: 18.75rem;
-		}
+    }
 
-		&__quote {
-			font-style: italic;
-			font-size: 1.5rem;
-			text-align: center;
-			word-wrap: wrap;
-		}
+    &__quote {
+      font-size: 1.5rem;
+      font-style: italic;
+      text-align: center;
+      word-wrap: wrap;
+    }
 
-		&__name {
-			text-align: center;
-			font-size: 0.75rem;
-			color: $gray;
+    &__name {
+      width: 100%;
+      font-size: 0.75rem;
+      color: $gray;
+      text-align: center;
 
-			&::first-line {
-				font-size: 1rem;
-				color: black;
-			}
-		}
-	}
-
+      &::first-line {
+        font-size: 1rem;
+        color: $black;
+      }
+    }
+  }
 }
